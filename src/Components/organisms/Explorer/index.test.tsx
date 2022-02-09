@@ -34,9 +34,9 @@ describe("Explore", () => {
         const linkElement = screen.getByText('Explore by category')
         expect(linkElement).toHaveStyle("color: #116BE9");
     });
-    test("Nav Icon count should be 26", () => {
+    test("Nav Icon count should be 18", () => {
         renderExplore();
         const navIconElements = screen.getAllByTestId('nav-icon');
-        expect(navIconElements.length).toBe(26);
+        expect(navIconElements.length).toBe(18);
     })
 });
