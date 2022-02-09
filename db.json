@@ -1,0 +1,208 @@
+{
+  "books": [
+    {
+      "id": 0,
+      "name": "Bring Your Human to Work",
+      "url": "/assets/books/1.svg",
+      "timeRead": "13-minute read",
+      "writerName": "Erica Keswin",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 1,
+      "name": "Employee to Entrepreneur",
+      "url": "/assets/books/11.svg",
+      "timeRead": "15-minute read",
+      "writerName": "Steve Glaveski",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 2,
+      "name": "Doesn’t Hurt to Ask",
+      "url": "/assets/books/3.svg",
+      "timeRead": "13-minute read",
+      "writerName": "Trey Gowdy",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 3,
+      "name": "The Fate of Food",
+      "url": "/assets/books/4.svg",
+      "timeRead": "13-minute read",
+      "writerName": "Amanda Little",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 4,
+      "name": "Lives of the Stoics",
+      "url": "/assets/books/5.svg",
+      "timeRead": "13-minute read",
+      "writerName": "Ryan Holiday, Stephen Hansel",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 5,
+      "name": "Loving Your Business",
+      "url": "/assets/books/6.svg",
+      "timeRead": "13-minute read",
+      "writerName": "Debbie King",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 6,
+      "name": "The Fate of Food",
+      "url": "/assets/books/4.svg",
+      "timeRead": "15-minute read",
+      "writerName": "Noreena Hertz",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 7,
+      "name": "Eat Better, Feel Better",
+      "url": "/assets/books/8.svg",
+      "timeRead": "13-minute read",
+      "writerName": "Giada De Laurentiis",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 8,
+      "name": "Dropshipping",
+      "url": "/assets/books/9.svg",
+      "timeRead": "15-minute read",
+      "writerName": "James Moore",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 9,
+      "name": "Being Boss",
+      "url": "/assets/books/10.svg",
+      "timeRead": "15-minute read",
+      "writerName": "Kathleen Shannon and Emily...",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 10,
+      "name": "Beyond Entrepreneurship",
+      "url": "/assets/books/1.svg",
+      "timeRead": "13-minute read",
+      "writerName": "Jim Collins & Bill Lazier",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    },
+    {
+      "id": 11,
+      "name": "Employee to Entrepreneur",
+      "url": "/assets/books/11.svg",
+      "timeRead": "15-minute read",
+      "writerName": "Jim Collins & Bill Lazier",
+      "synopics": "Beyond Entrepreneurship 2.0 (2020) updates Jim Collins and Bill Lazier’s essential 1992 business handbook, Beyond Entrepreneurship for the entrepreneurs, visionaries, and innovators of today. This new edition combines the timeless business advice and strategy of the original text, supplemented with cutting-edge insights and case studies pertinent to today’s business world.",
+      "aim": "Turning Your Business into an Enduring Great Company"
+    }
+  ],
+  "library": {
+    "currentlyReading": [
+      {
+        "id": 0,
+        "progress": 0
+      },
+      {
+        "id": 3,
+        "progress": 0
+      },
+      {
+        "id": 4,
+        "progress": 0
+      },
+      {
+        "id": 6,
+        "progress": 0
+      },
+      {
+        "id": 7,
+        "progress": 0
+      },
+      {
+        "id": 8,
+        "progress": 0
+      },
+      {
+        "id": 9,
+        "progress": 0
+      }
+    ],
+    "finishedBook": [
+      {
+        "id": 2
+      },
+      {
+        "id": 5
+      },
+      {
+        "id": 1
+      }
+    ]
+  },
+  "extra": [
+    {
+      "heading": "Trending blinks",
+      "books": [
+        {
+          "id": 0
+        },
+        {
+          "id": 1
+        },
+        {
+          "id": 2
+        },
+        {
+          "id": 3
+        },
+        {
+          "id": 4
+        },
+        {
+          "id": 5
+        }
+      ]
+    },
+    {
+      "heading": "Just added",
+      "books": [
+        {
+          "id": 6
+        },
+        {
+          "id": 7
+        },
+        {
+          "id": 8
+        }
+      ]
+    },
+    {
+      "heading": "Featured audio blinks",
+      "books": [
+        {
+          "id": 9
+        },
+        {
+          "id": 10
+        },
+        {
+          "id": 11
+        }
+      ]
+    }
+  ]
+}

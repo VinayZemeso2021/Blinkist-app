@@ -1,0 +1,31 @@
+*{
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Cera Pro';
+  src: local('Cera Pro'), url(../src/assets/fonts/cera-pro-font/Cera\ Pro\ Bold.otf) format('opentype');  
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Cera Pro';
+  src: local('Cera Pro'), url(../src/assets/fonts/cera-pro-font/Cera\ Pro\ Medium.otf) format('opentype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Cera Pro';
+  src: local('Cera Pro'), url(../src/assets/fonts/cera-pro-font/Cera\ Pro\ Medium.otf) format('opentype');  
+  font-weight: 400;
+}
+body {
+  margin: 0;
+  font-family: 'Cera Pro',sans-serif;
+}
+.container {
+  max-width: 912px;
+  margin: auto;
+  display: block;
+}
+input::placeholder{
+  font-family: 'Cera Pro',sans-serif;
+  font-size: 16px;
+}
