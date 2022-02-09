@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\organisms\Card\index.test.tsx">
+    <testCase name="it should render same bookname text" duration="614"/>
+    <testCase name="should render same writer name text" duration="157"/>
+    <testCase name="should render same time read text" duration="93"/>
+    <testCase name="should render white background color if inLibrary is true" duration="230"/>
+    <testCase name="should render different color of card body when inLibrary is false as well as in hoveredState" duration="256"/>
+    <testCase name="should render different color od card box when inLibrary is false as well as in hoveredState" duration="141"/>
+    <testCase name="should card-library-handler be clickable and when inLIbrary is false" duration="110"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\pages\MyLibrary\index.test.tsx">
+    <testCase name="Library it renders cicular progress bar if books are not available" duration="775"/>
+    <testCase name="Library should not render cicular progress bar if books are available" duration="954"/>
+    <testCase name="Library should render same no of finished books" duration="1529"/>
+    <testCase name="Library should render same no of currently books" duration="732"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\pages\BookInfoPage\index.test.tsx">
+    <testCase name="it is Book Info should render circular bar if data is empty" duration="503"/>
+    <testCase name="it is Book Info should not render circular bar if data is not empty" duration="2110"/>
+    <testCase name="it is Book Info should render tabs with clickable option" duration="2332"/>
+    <testCase name="it is Book Info should render third tab with clickable option" duration="2272"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\pages\EntrepreneurPage\index.test.tsx">
+    <testCase name="Home it should render input" duration="1613"/>
+    <testCase name="Home should render containers matching to data length" duration="774"/>
+    <testCase name="Home should render a circularbox if library is empty" duration="157"/>
+    <testCase name="Home clickable library handler" duration="1201"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\molecules\NavIcon\index.test.tsx">
+    <testCase name="handle hover state" duration="69"/>
+    <testCase name="it render the nav icon as well as label" duration="17"/>
+    <testCase name="Left icon" duration="33"/>
+    <testCase name="Right icon" duration="23"/>
+    <testCase name="teststate" duration="27"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\organisms\Explorer\index.test.tsx">
+    <testCase name="Explore render Explore by category heading" duration="351"/>
+    <testCase name="Explore should recently added text to be clickable" duration="247"/>
+    <testCase name="Explore it should See popular titles to be clickable" duration="232"/>
+    <testCase name="Explore Explore by category text should be blue" duration="384"/>
+    <testCase name="Explore Nav Icon count should be 26" duration="308">
+      <failure message="Error: expect(received).toBe(expected) // Object.is equality"><![CDATA[Error: expect(received).toBe(expected) // Object.is equality
+
+Expected: 26
+Received: 18
+    at Object.<anonymous> (D:\VS -code  git repo\Blinkist-app\src\Components\organisms\Explorer\index.test.tsx:40:40)
+    at Promise.then.completed (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\run.js:66:9)
+    at _runTestsForDescribeBlock (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\run.js:60:9)
+    at run (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (D:\VS -code  git repo\Blinkist-app\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (D:\VS -code  git repo\Blinkist-app\node_modules\jest-runner\build\runTest.js:475:34)
+    at Object.worker (D:\VS -code  git repo\Blinkist-app\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
+    </testCase>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\molecules\tabs\index.test.tsx">
+    <testCase name="it should render 2 tabw for 2 length data" duration="210"/>
+    <testCase name="this should have green indicator color for currently reading tab by default" duration="71"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\Template\Template.test.tsx">
+    <testCase name="Template should render circular bar if data is empty" duration="102"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\atoms\Input\index.test.tsx">
+    <testCase name="Input Components" duration="165"/>
+    <testCase name="it should render input element" duration="66"/>
+    <testCase name="should be able to type in input" duration="79"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\atoms\Images\index.test.tsx">
+    <testCase name="it renders Images" duration="125"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\atoms\ProgressBar\index.test.tsx">
+    <testCase name="should render progressbar" duration="87"/>
+    <testCase name="should render progressbar with value" duration="56"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\atoms\Typography\index.test.tsx">
+    <testCase name="renders Text passed from prop" duration="30"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\organisms\Header\index.test.tsx">
+    <testCase name="Header it search-state-button button should be clickable" duration="414"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\atoms\Icons\index.test.tsx">
+    <testCase name="it should render passed icon" duration="50"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\molecules\Logo\index.test.tsx">
+    <testCase name="should render Logo" duration="40">
+      <failure message="TestingLibraryElementError: Unable to find an element with the text: blinkist. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible."><![CDATA[TestingLibraryElementError: Unable to find an element with the text: blinkist. This could be because the text is broken up by multiple elements. In this case, you can provide a function for your text matcher to make your matcher more flexible.
+
+Ignored nodes: comments, <script />, <style />
+<body>
+  <div>
+    <svg
+      data-testid="blinkist"
+      viewBox="0 0 133 26"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g
+        clip-rule="evenodd"
+        fill-rule="evenodd"
+      >
+        <path
+          d="m45.5 13c.7-.8 1.1-1.9 1.1-3.2 0-3.3-2.8-5.6-6.4-5.6h-6.8v18.9h8.9c3.6 0 6.4-2.3 6.4-5.6 0-2.2-1.3-3.8-3.2-4.5zm-7.3-4.6h1.8c1.2 0 1.9.7 1.9 1.7s-.7 1.7-1.9 1.7h-1.8zm3.8 10.6h-3.8v-3.3h3.8c1.1 0 1.9.5 1.9 1.7s-.8 1.6-1.9 1.6zm9.1-17.4h4.9v21.5h-4.9zm8.1 7.2h4.9v14.3h-4.9zm2.4-8c-1.7 0-3 1.3-3 2.9s1.3 2.9 3 2.9 3-1.3 3-2.9c.1-1.6-1.3-2.9-3-2.9zm14.3 7.7c-1.7 0-3.1.6-4 1.5v-1.2h-4.5v14.3h4.9v-8.1c0-1.3.9-2.1 2.1-2.1s2.1.8 2.1 2.1v8.1h4.9v-8.8c-.1-3.5-2.2-5.8-5.5-5.8zm23.6.3h-5.7l-4.4 5.8v-13h-5v21.5h5v-7.5l5.1 7.5h5.4l-5.3-7.9zm2 0h4.9v14.3h-4.9zm2.4-8c-1.7 0-3 1.3-3 2.9s1.3 2.9 3 2.9 3-1.3 3-2.9-1.3-2.9-3-2.9zm12.3 13.4-1.4-.6c-.7-.3-1-.4-1-.8s.4-.5 1-.5c1.1 0 2.1.4 3 1.2l2.3-3c-1.4-1.5-3.3-2.1-5.4-2.1-3.3 0-5.6 1.7-5.6 4.5 0 2.4 1.5 3.5 4.2 4.6l1.6.7c.5.2.8.4.8.7 0 .5-.6.6-1.3.6-1.4 0-2.8-.6-4-1.8l-2.3 2.9c1.3 1.8 3.6 2.7 6.2 2.7 3.4 0 5.9-1.7 5.9-4.8.2-2.2-1.4-3.3-4-4.3zm14.7 4.8c-1.8 0-2.5-.5-2.5-1.9v-4.2h3.8v-4.1h-3.8v-3.4h-4.9v3.4h-2.2v4.1h2.2v4.7c0 3.9 2.3 5.8 6.3 5.8 1.1 0 2.1-.1 2.9-.3v-4.1z"
+          fill="#002f54"
+        />
+        <path
+          d="m19.4 0-5.9 6-5.9-6c-4.5 2.2-7.6 6.9-7.6 12.3 0 7.5 6 13.7 13.5 13.7 7.4 0 13.5-6.1 13.5-13.7 0-5.4-3.1-10.1-7.6-12.3z"
+          fill="#2cde80"
+        />
+        <path
+          d="m17.1 9.6-3.5-3.6-3.6 3.6c-2 2-2 5.3 0 7.3s5.2 2 7.2 0c1.9-2 1.9-5.3-.1-7.3z"
+          fill="#002f54"
+        />
+      </g>
+    </svg>
+  </div>
+</body>
+    at Object.getElementError (D:\VS -code  git repo\Blinkist-app\node_modules\@testing-library\dom\dist\config.js:38:19)
+    at D:\VS -code  git repo\Blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:90:38
+    at D:\VS -code  git repo\Blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:62:17
+    at getByText (D:\VS -code  git repo\Blinkist-app\node_modules\@testing-library\dom\dist\query-helpers.js:111:19)
+    at Object.<anonymous> (D:\VS -code  git repo\Blinkist-app\src\Components\molecules\Logo\index.test.tsx:7:30)
+    at Promise.then.completed (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\utils.js:391:28)
+    at new Promise (<anonymous>)
+    at callAsyncCircusFn (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\utils.js:316:10)
+    at _callCircusTest (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\run.js:218:40)
+    at processTicksAndRejections (internal/process/task_queues.js:95:5)
+    at _runTest (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\run.js:155:3)
+    at _runTestsForDescribeBlock (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\run.js:66:9)
+    at run (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\run.js:25:3)
+    at runAndTransformResultsToJestFormat (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapterInit.js:170:21)
+    at jestAdapter (D:\VS -code  git repo\Blinkist-app\node_modules\jest-circus\build\legacy-code-todo-rewrite\jestAdapter.js:82:19)
+    at runTestInternal (D:\VS -code  git repo\Blinkist-app\node_modules\jest-runner\build\runTest.js:389:16)
+    at runTest (D:\VS -code  git repo\Blinkist-app\node_modules\jest-runner\build\runTest.js:475:34)
+    at Object.worker (D:\VS -code  git repo\Blinkist-app\node_modules\jest-runner\build\testWorker.js:133:12)]]></failure>
+    </testCase>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\atoms\Button\index.test.tsx">
+    <testCase name="it renders Button" duration="234"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\organisms\Footer\index.test.tsx">
+    <testCase name="Footer" duration="351"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\molecules\Banner1\index.test.tsx">
+    <testCase name="Banner is Heading" duration="165"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\atoms\Blank\index.test.tsx">
+    <testCase name="renders the blank component" duration="37"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\atoms\Avatar\index.test.tsx">
+    <testCase name="renders the avatar" duration="21"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\Components\molecules\Search\index.test.tsx">
+    <testCase name="it should render input box" duration="360"/>
+    <testCase name="it should render filtered result of length 2 for Employee search" duration="267"/>
+  </file>
+  <file path="D:\VS -code  git repo\Blinkist-app\src\App.test.tsx">
+    <testCase name="render the App Component" duration="29"/>
+  </file>
+</testExecutions>
