@@ -1,28 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644414086131" clover="3.2.0">
-  <project timestamp="1644414086131" name="All files">
-    <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4" elements="14" coveredelements="14" complexity="0" loc="10" ncloc="10" packages="2" files="2" classes="2"/>
-    <package name="molecules.Logo">
-      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-      <file name="index.tsx" path="D:\VS -code  git repo\Blinkist-app\src\Components\molecules\Logo\index.tsx">
-        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="2" count="5" type="stmt"/>
-        <line num="3" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="organisms.Explorer">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="index.tsx" path="D:\VS -code  git repo\Blinkist-app\src\Components\organisms\Explorer\index.tsx">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-        <line num="17" count="5" type="stmt"/>
-        <line num="27" count="3" type="stmt"/>
-        <line num="66" count="3" type="stmt"/>
-        <line num="67" count="6" type="stmt"/>
-        <line num="68" count="5" type="stmt"/>
-        <line num="70" count="5" type="stmt"/>
-        <line num="145" count="5" type="stmt"/>
-        <line num="160" count="90" type="stmt"/>
-      </file>
-    </package>
+<coverage generated="1644466038957" clover="3.2.0">
+  <project timestamp="1644466038957" name="All files">
+    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
   </project>
 </coverage>
