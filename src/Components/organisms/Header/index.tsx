@@ -13,17 +13,18 @@ import {NavLink} from 'react-router-dom';
 import AvatarComp from '../../atoms/Avatar'
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
+import { useAuth0 } from "@auth0/auth0-react";
 
 
 const HeaderComponent = (props : any) => {
+    const {loginWithRedirect,isAuthenticated,logout} = useAuth0();
 
-    const settings = ['Profile', 'Logout'];
+    
+   
+
     const [anchorElNav, setAnchorElNav] = useState(null);
     const [anchorElUser, setAnchorElUser] = useState(null);
-    const [searchState, setSearchState] = useState(false);
-    const handleOpenNavMenu = (event: any) => {
-        setAnchorElNav(event.currentTarget);
-      };
+    
     const handleOpenUserMenu = (event: any) => {
         setAnchorElUser(event.currentTarget);
     };
@@ -52,9 +53,42 @@ const HeaderComponent = (props : any) => {
                                 <Button key={2} children='My Library' sx={{color:'#03314B' ,fontSize:'16px',fontWeight:'500'}}/>
                             </NavLink>
                     </Box>
-                    <Box sx={{ flexGrow: 0.5, display:'flex',justifyContent:'Center',alignItems: 'center'}}>
-                        <AvatarComp/>
-                        <Icon icon={<KeyboardArrowDownIcon />}/>
+                    <Box sx={{ flexGrow: 0.5,display:'flex',justifyContent:'Center',alignItems: 'center'}}>
+                       
+                        <div style={{alignItems: 'center',display:'flex'}}>
+                        <Button onClick={handleOpenUserMenu}>
+                       {!isAuthenticated? <AvatarComp/>:<AvatarComp style={{textColor:'white'}} name={'V'}/>}
+                         </Button>
+                         <Icon icon={<KeyboardArrowDownIcon />}/>
+                        </div>
+    
+                        <Menu
+                            sx={{ mt: '45px' }}
+                            id="menu-appbar"
+                            anchorEl={anchorElUser}
+                            anchorOrigin={{
+                                vertical: 'top',
+                                horizontal: 'right',
+                            }}
+                            keepMounted
+                            transformOrigin={{
+                                vertical: 'top',
+                                horizontal: 'right',
+                            }}
+                            open={Boolean(anchorElUser)}
+                            onClose={handleCloseUserMenu}
+                        >
+                         { !isAuthenticated  
+                         ?
+                         <MenuItem onClick={handleCloseNavMenu} >
+                        <Button sx={{color:"black"}} onClick={() => {return (loginWithRedirect())}}> Login</Button>
+                        </MenuItem> 
+                        :
+                        <MenuItem onClick={handleCloseNavMenu} >
+                        <Button sx={{color:"black"}} onClick={() => logout({ returnTo: window.location.origin })}> Log Out</Button>
+                        </MenuItem>  
+}  
+                        </Menu>
                     </Box>
                 </Toolbar>
             </Container>
